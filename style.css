@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(315deg, #3b2066 0%, #4c11ac);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 15px 60px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid rebeccapurple;
+
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.7em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
